@@ -13,43 +13,6 @@ Customizable chunking and retrieval parameters
 
 Easy to deploy and extend
 
-Installation
-Clone the repository:
-
-bash
-git clone https://github.com/EyyyWeee/RAG.git
-cd rag-web-app
-Install dependencies:
-
-bash
-pip install -r requirements.txt
-Set up your environment:
-
-Create a .env file in the project root
-
-Add your API keys (e.g., OpenAI):
-
-env
-OPENAI_API_KEY="your-api-key-here"
-Usage
-Adding Documents
-Place your documents (PDFs, TXT files) in the data/ directory.
-
-Running the Web App
-bash
-python app.py
-The application will launch and provide a local URL (typically http://localhost:7860 for Gradio).
-
-Programmatic Usage
-You can also use the RAG system directly:
-
-python
-from rag import RAG
-
-# Initialize and load documents
-rag = RAG("data/")
-rag.load_documents()
-
 # Query the system
 response = rag.query("What is retrieval-augmented generation?")
 print(response)
