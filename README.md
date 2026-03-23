@@ -17,11 +17,11 @@ This project implements a Retrieval-Augmented Generation (RAG) system with a web
 4. text
    
 # File Structure
-1. data/                          # Directory for documents
-2. rag.py                         # Core RAG implementation
-3. app.py                         # Web interface
-4. requirements.txt               # Python dependencies
-5. .env                           # Environment variables (API keys)
+1. data/  - Directory for documents
+2. rag.py - Core RAG implementation
+3. app.py - Web interface
+4. requirements.txt - Python dependencies
+5. .env - Environment variables (API keys)
 
 # Customization Options
 In rag.py:
@@ -36,10 +36,7 @@ In app.py:
 3. Change the web framework (Gradio/Streamlit/FastAPI)
 
 # Troubleshooting
-1. Issue: Documents not loading
-a. Ensure files are in the data/ directory
-b. Check file formats are supported (PDF, TXT)
 
-2. Issue: API errors
-a. Verify your .env file contains correct API keys
-b. Check your internet connection
+1. Issue: Documents not loading - Ensure files are in the "data/" directory & check file formats are supported(PDF, TXT).
+
+2. Issue: API errors - Verify your .env file contains correct API keys & Check your internet connection
