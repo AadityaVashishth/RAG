@@ -3,51 +3,42 @@ RAG Web Application
 Overview
 This project implements a Retrieval-Augmented Generation (RAG) system with a web interface, combining document retrieval with large language models to provide accurate, context-aware responses.
 
-Features
-
-Single-script RAG pipeline (all retrieval and generation logic in one file)
-
-Simple web interface (Gradio/Streamlit)
-
-Supports multiple document formats (PDF, TXT)
-
-Customizable chunking and retrieval parameters
-
-Easy to deploy and extend
+Features:
+1. Single-script RAG pipeline (all retrieval and generation logic in one file)
+2. Simple web interface (Gradio/Streamlit)
+3. Supports multiple document formats (PDF, TXT)
+4. Customizable chunking and retrieval parameters
+5. Easy to deploy and extend
 
 # Query the system
-response = rag.query("What is retrieval-augmented generation?")
-print(response)
-Project Structure
-text
-.
+1. response = rag.query("What is retrieval-augmented generation?")
+2. print(response)
+3. Project Structure
+4. text
+   
 ├── data/                  # Directory for documents
 ├── rag.py                 # Core RAG implementation
 ├── app.py                 # Web interface
 ├── requirements.txt       # Python dependencies
 └── .env                   # Environment variables (API keys)
+
 Customization Options
 In rag.py:
-Change embedding model (line XX)
-
-Adjust chunking parameters (chunk_size, chunk_overlap)
-
-Modify retrieval settings (number of chunks to retrieve)
-
-Change LLM or prompt template
+1. Change embedding model (line XX)
+2. Adjust chunking parameters (chunk_size, chunk_overlap)
+3. Modify retrieval settings (number of chunks to retrieve)
+4. Change LLM or prompt template
 
 In app.py:
-Modify the UI theme/layout
-
-Add examples or additional input fields
-
-Change the web framework (Gradio/Streamlit/FastAPI)
+1. Modify the UI theme/layout
+2. Add examples or additional input fields
+3. Change the web framework (Gradio/Streamlit/FastAPI)
 
 Troubleshooting
-Issue: Documents not loading
-✅ Ensure files are in the data/ directory
-✅ Check file formats are supported (PDF, TXT)
+1. Issue: Documents not loading
+a. Ensure files are in the data/ directory
+b. Check file formats are supported (PDF, TXT)
 
-Issue: API errors
-✅ Verify your .env file contains correct API keys
-✅ Check your internet connection
+2. Issue: API errors
+a. Verify your .env file contains correct API keys
+b. Check your internet connection
