@@ -1,8 +1,10 @@
 RAG Web Application
+
 Overview
 This project implements a Retrieval-Augmented Generation (RAG) system with a web interface, combining document retrieval with large language models to provide accurate, context-aware responses.
 
 Features
+
 Single-script RAG pipeline (all retrieval and generation logic in one file)
 
 Simple web interface (Gradio/Streamlit)
