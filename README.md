@@ -1,6 +1,6 @@
 RAG Web Application
 
-Overview
+Overview:
 This project implements a Retrieval-Augmented Generation (RAG) system with a web interface, combining document retrieval with large language models to provide accurate, context-aware responses.
 
 Features:
@@ -16,15 +16,16 @@ Features:
 3. Project Structure
 4. text
    
-├── data/                  # Directory for documents
-├── rag.py                 # Core RAG implementation
-├── app.py                 # Web interface
-├── requirements.txt       # Python dependencies
-└── .env                   # Environment variables (API keys)
+File Structure:
+1. data/                          # Directory for documents
+2. rag.py                         # Core RAG implementation
+3. app.py                         # Web interface
+4. requirements.txt               # Python dependencies
+5. .env                           # Environment variables (API keys)
 
 Customization Options
 In rag.py:
-1. Change embedding model (line XX)
+1. Change embedding model
 2. Adjust chunking parameters (chunk_size, chunk_overlap)
 3. Modify retrieval settings (number of chunks to retrieve)
 4. Change LLM or prompt template
