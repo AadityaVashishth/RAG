@@ -1,9 +1,9 @@
-RAG Web Application
+# RAG Web Application
 
-Overview:
+# Overview
 This project implements a Retrieval-Augmented Generation (RAG) system with a web interface, combining document retrieval with large language models to provide accurate, context-aware responses.
 
-Features:
+# Features
 1. Single-script RAG pipeline (all retrieval and generation logic in one file)
 2. Simple web interface (Gradio/Streamlit)
 3. Supports multiple document formats (PDF, TXT)
@@ -16,14 +16,14 @@ Features:
 3. Project Structure
 4. text
    
-File Structure:
+# File Structure
 1. data/                          # Directory for documents
 2. rag.py                         # Core RAG implementation
 3. app.py                         # Web interface
 4. requirements.txt               # Python dependencies
 5. .env                           # Environment variables (API keys)
 
-Customization Options
+# Customization Options
 In rag.py:
 1. Change embedding model
 2. Adjust chunking parameters (chunk_size, chunk_overlap)
@@ -35,7 +35,7 @@ In app.py:
 2. Add examples or additional input fields
 3. Change the web framework (Gradio/Streamlit/FastAPI)
 
-Troubleshooting
+# Troubleshooting
 1. Issue: Documents not loading
 a. Ensure files are in the data/ directory
 b. Check file formats are supported (PDF, TXT)
