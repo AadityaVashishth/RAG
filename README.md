@@ -37,6 +37,6 @@ In app.py:
 
 # Troubleshooting
 
-1. Issue: Documents not loading - Ensure files are in the "data/" directory & check file formats are supported(PDF, TXT).
+1. Issue: Documents not loading - Ensure files are in the "data/" directory & check if the file formats are supported(PDF, TXT).
 
 2. Issue: API errors - Verify your .env file contains correct API keys & Check your internet connection
